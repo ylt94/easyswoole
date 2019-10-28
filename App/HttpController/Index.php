@@ -12,4 +12,9 @@ class Index extends Controller{
         $this->response()->white(json_encode(['status' => 1,'msg' => 'success']));
         return true;
     }
+
+    public function test(){
+        $this->response()->white(json_encode(['status' => 1,'msg' => 'success']));
+        return true;
+    }
 }
