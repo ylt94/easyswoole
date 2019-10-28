@@ -1,10 +1,23 @@
+  
 {
-    "require": {
-        "easyswoole/easyswoole": "3.x"
-    },
     "autoload": {
         "psr-4": {
             "App\\": "App/"
+        }
+    },
+    "require": {
+        "php": ">=7.2",
+        "easyswoole/easyswoole": "^3.3.0",
+        "tioncico/curd-automatic-generation": "dev-master",
+	"ext-json": "*",
+        "siam/commom-helper": "^1.0",
+        "easyswoole/policy": "^1.0",
+        "easyswoole/fast-cache": "^1.1"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
         }
     }
 }
