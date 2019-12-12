@@ -16,6 +16,7 @@ class Index extends Controller{
 
     public function test(){
         usleep(100);
+        echo 'success'.PHP_EOL;
         $this->response()->write(json_encode(['status' => 1,'msg' => 'success']));
         return true;
     }
